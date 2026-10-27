@@ -17,9 +17,10 @@ body {
     font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-.aaa { text-align: center;
-}
+@media (max-width: 768px) {
+    .aaa {
+        text-align: center;
+    }
 }
 .centered-main-page-element {
     display: block;
@@ -29,20 +30,22 @@ body {
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .task-row-wrapper {
     display: flex;
 }
 ul {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
-li, h3 {
-    list-style:none;
+li,
+h3 {
+    list-style: none;
 }
-input,button{
-    outline:none;
+input,
+button {
+    outline: none;
 }
 button {
     background: none;
@@ -54,7 +57,7 @@ button {
     cursor: pointer;
 }
 button:hover {
-    color: #3a3A3a;
+    color: #3a3a3a;
 }
 /* Heading */
 h3,
@@ -67,19 +70,19 @@ label[for='new-task'] {
     margin: 0;
     text-transform: uppercase;
 }
-input[type="text"] {
+input[type='text'] {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
     height: 21px;
     padding: 0 9px;
-    border: 1px solid #dDd;
-    background: #FFF;
+    border: 1px solid #ddd;
+    background: #fff;
     border-radius: 6px;
     font-family: Lato, sans-serif;
     color: #888;
 }
-input[type="text"]:focus {
+input[type='text']:focus {
     color: #333;
 }
 
@@ -106,7 +109,7 @@ li > * {
     vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+li > input[type='checkbox'] {
     margin: 0 10px;
 }
 li > label {
@@ -115,8 +118,8 @@ li > label {
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
-    width: 226px
+li > input[type='text'] {
+    width: 226px;
 }
 button.delete img {
     height: 2em;
@@ -134,15 +137,15 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul li input[type=text] {
-    display:none
+ul li input[type='text'] {
+    display: none;
 }
 
-ul li.editMode input[type=text] {
-    display:inline-block;
-    width:224px
+ul li.editMode input[type='text'] {
+    display: inline-block;
+    width: 224px;
 }
 
 ul li.editMode label {
-    display:none;
+    display: none;
 }
