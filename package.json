@@ -8,6 +8,10 @@
         "format": "prettier --write .",
         "prepare": "husky"
     },
+    "lint-staged": {
+        "*.js": "eslint --max-warnings=0",
+        "*.{html,css,json,md}": "prettier --check"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/theFoxTale/clean-code-todo.git"
